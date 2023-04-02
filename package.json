@@ -1,0 +1,35 @@
+{
+  "name": "pwa-texteditor",
+  "version": "1.0.0",
+  "description": "a A Text editor that runs in the browser. The app is single-page application that meets the PWA criteria.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "",
+    "start": "",
+    "server": "",
+    "build": "",
+    "install": "",
+    "client": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marksalazr/PWA-TextEditor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "if-env": "^1.0.4"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
+  },
+
+  "bugs": {
+    "url": "https://github.com/marksalazr/PWA-TextEditor/issues"
+  },
+  "homepage": "https://github.com/marksalazr/PWA-TextEditor#readme"
+}
