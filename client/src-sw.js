@@ -32,5 +32,11 @@ new StaleWhileRevalidate({
   cacheName: "asset-cache",
   plugins:[new CacheableResponsePlugin({
     statuses:[0,200],
-  })]
-}));
+  }),
+
+    new ExpirationPlugin({
+      statuses: [0,200],
+    }),
+  ]
+ })
+);

@@ -11,7 +11,10 @@ module.exports = () => {
     mode: 'development',
     entry: {
       main: './src/js/index.js',
-      install: './src/js/install.js'
+      install: './src/js/install.js',
+      database: './src/js/database.js',
+      editor: './src/js/editor.js',
+      header: './src/js/header.js'
     },
     output: {
       filename: '[name].bundle.js',
@@ -31,7 +34,7 @@ module.exports = () => {
         fingerprints: false,
         inject:true,
         name: "Just Another Text Editor",
-        short_name: "JATE",
+        short_name: "jate",
         description: "A text editor that works even without internet",
         background_color: '#7eb4e2',
         theme_color: "#7eb4e2",
@@ -49,6 +52,7 @@ module.exports = () => {
      
           
     module: {
+      // css and babel loaded
       rules: [
         {
 					test: /\.css$/i,

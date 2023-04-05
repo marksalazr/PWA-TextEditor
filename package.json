@@ -1,5 +1,5 @@
 {
-  "name": "pwa-texteditor",
+  "name": "pwa-text-edit",
   "version": "1.0.0",
   "description": "a A Text editor that runs in the browser. The app is single-page application that meets the PWA criteria.",
   "main": "server.js",
